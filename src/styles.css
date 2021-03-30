@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  height: 32px;
+  width: 32px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.winner {
+  background: #99ff99;
+}
+
+.reset-button {
+  margin-top: 20px;
+  background: #ffffff;
+  border: 1px solid black;
+  color: black;
+  padding: 2px 12px;
+  cursor: pointer;
+}
